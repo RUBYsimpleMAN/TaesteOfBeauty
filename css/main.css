@@ -1,0 +1,140 @@
+.backgrnd-img img{
+	width: 100vw;
+}
+
+header {
+	top: 0;
+	left: 0;
+  right: 0;
+  height: 14vh;
+	position: absolute;
+}
+
+.header-backgrnd {
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-content {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 80%;
+	margin: 0 auto;
+	padding: 1vh 0;
+}
+
+.logo {
+	width: 5vw;
+}
+
+.logo img {
+	width: 50px;
+}
+
+.nav__menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-width: 55vw;
+	font-size: 0.8rem;
+	font-weight: 400;
+	line-height: 2rem;
+  border-bottom: 1px solid #000000;
+}
+.nav__menu a {
+	color: #000000;
+}
+main {
+	background-color: skyblue;
+}
+
+.container {
+	max-width: 80%;
+	margin: 0 auto;
+	background-color: darkkhaki;
+}
+
+.suggest-scope {
+	position: absolute;
+	top: 10vh;
+	left: 30vh;
+	height: 40vw;
+	max-width: 30%;
+	display: flex;
+	align-items: center;
+}
+.suggest-logo img {
+	width: 80%;
+}
+.suggest-icons {
+	display: flex;
+	margin-left: -0.5vh;
+	padding: 1vh 0;
+}
+.suggest-icons img {
+	padding: 0.5vh;
+}
+
+.button-transparent {
+	width: 170px;
+	height: 50px;
+	border: 1px solid #3C3B4A;
+}
+
+.about_company-with_stamp {
+	display: flex;
+	justify-content: space-evenly;
+}
+.company-column {
+	max-width: 30vw;
+	background-color: wheat;
+}
+.company-column__descr-text {
+	max-width: 26vw;
+	margin: 10% auto;
+	padding: 3vh;
+	background-color: #EBCFCC;
+	text-align: center;
+}
+.company-column__text-title {
+	padding: 0 0 1vh;
+}
+.company-column__text {
+	font-size: 18px;
+  line-height: 22px;
+	min-height: 70vmin;
+}
+.company-column__acuarel img{
+	max-width: 60%;
+	margin: 8% 16%;
+}
+.stamp-column {
+	max-width: 30vw;
+	background-color:yellowgreen;
+}
+.stamp-column__title img {
+	margin: 20% auto 10%;
+}
+.stamp-column__kabinet img {
+	max-width: 100%;
+}
+
+.stamp-column__stamp {
+	display: flex;
+	justify-content: flex-end;
+}
+.stamp-column__stamp img {
+	margin-top: -190px;
+	margin-right: -178px;
+}
+
+.button-black__scope {
+	margin-left: -10vw;
+}
+.button-black {
+	width: calc(100px + 20vw);
+	height: calc(30px + 2vw);
+	color: white;
+	background: #3C3B4A;
+	border: none;
+}
