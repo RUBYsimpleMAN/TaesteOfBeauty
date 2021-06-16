@@ -45,7 +45,7 @@ header {
 	color: #000000;
 }
 main {
-	background-color: skyblue;
+	background-color: thistle;
 }
 
 .container {
@@ -138,3 +138,56 @@ main {
 	background: #3C3B4A;
 	border: none;
 }
+
+.our-excellence__scope {}
+.our-excellence__flex-string {
+	display: flex;
+	flex-direction: column-reverse;
+}
+.our-excellence__title {
+	padding: 8vmin 0 4vmin;
+	text-align: center;
+}
+.our-excellence__photo-text,
+.our-excellence__text-scope,
+.our-excellence__next-lvl {
+	display: flex;
+}
+.our-excellence__girl-photo,
+.our-excellence__text-scope,
+.our-excellence__left-col,
+.our-excellence__right-col {
+	max-width: 50vw;
+	min-width: 50vw;
+}
+.our-excellence__girl-photo img {
+	max-width: 100%;
+}
+.our-excellence__text {
+	align-self: center;
+	padding: 6vmin 20vmin 6vmin 6vmin;
+}
+.our-excellence__text h3 {
+	padding-bottom: 2vh;
+}
+.our-excellence__switcher {
+	width: 25%;
+	font-size: 96px;
+  line-height: 120px;
+  display: flex;
+  align-items: center;
+	margin-left: auto;
+	padding-left: 4%;
+  color: #3C3B4A;
+	border-left: 3px solid #EBCFCC;
+}
+.our-excellence__right-col img {
+	max-width: 60%;
+	margin-left: auto;
+	margin-top: -120px;
+	padding: 0;
+}
+
+
+
+
