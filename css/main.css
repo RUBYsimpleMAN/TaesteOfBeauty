@@ -44,14 +44,14 @@ header {
 .nav__menu a {
 	color: #000000;
 }
-main {
+/* main {
 	background-color: thistle;
-}
+} */
 
 .container {
 	max-width: 80%;
 	margin: 0 auto;
-	background-color: darkkhaki;
+	/* background-color: darkkhaki; */
 }
 
 .suggest-scope {
@@ -87,7 +87,6 @@ main {
 }
 .company-column {
 	max-width: 30vw;
-	background-color: wheat;
 }
 .company-column__descr-text {
 	max-width: 26vw;
@@ -110,7 +109,6 @@ main {
 }
 .stamp-column {
 	max-width: 30vw;
-	background-color:yellowgreen;
 }
 .stamp-column__title img {
 	margin: 20% auto 10%;
@@ -139,7 +137,6 @@ main {
 	border: none;
 }
 
-.our-excellence__scope {}
 .our-excellence__flex-string {
 	display: flex;
 	flex-direction: column-reverse;
@@ -150,7 +147,8 @@ main {
 }
 .our-excellence__photo-text,
 .our-excellence__text-scope,
-.our-excellence__next-lvl {
+.our-excellence__next-lvl,
+.our-excellence__right-col {
 	display: flex;
 }
 .our-excellence__girl-photo,
@@ -192,7 +190,7 @@ main {
 	background-color: transparent;
 }
 .our-excellence__next-lvl {
-	background-color: yellow;
+	background-color: transparent;
 }
 
 
