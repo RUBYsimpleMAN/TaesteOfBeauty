@@ -216,8 +216,6 @@ header {
 	margin: 3% auto;
 	min-width: 96%;
 	padding-top: 40px;
-	border: 2px solid navy;
-	background-color: rgba(76, 122, 168, .4);
 	z-index: 5;
 }
 .main-activity__pic-scoupe__title {
@@ -227,17 +225,19 @@ header {
 	justify-self: center;
 	flex-basis: 42%;
 	min-width: 20%;
-	margin: 1%;
+	margin: 3% 0;
 	padding: 2%;
 	border: 2px solid mintcream;
 	background-color: mintcream;
 }
+.main-activity__pic-area img {
+	width: 24%;
+	margin: 10% 0 0 70%;
+	box-sizing: border-box;
+}
 .main-activity__pic-tab {
 	width: auto;
-}
-.main-activity__pic-tab img {
-	width: 24%;
-	margin-left: 70%;
+  margin-top: -30%;
 }
 .main-activity__pic-star {
 	display: flex;
@@ -245,7 +245,7 @@ header {
 	justify-content: center;
 	width: 4vw;
 	height: 4vw;
-  margin: -10% 10%;
+  margin: -12% 10%;
 }
 .main-activity__pic-star p {
 	font-size: 96px;
