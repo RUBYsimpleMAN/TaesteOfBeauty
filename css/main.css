@@ -196,6 +196,17 @@ header {
 }
 
 
+.main-activity__scoupe__bkgrnd img {
+  width: 100vw;
+}
+
+.main-activity__pic-scoupe__title img {
+  width: 10vw;
+}
+
+.main-activity__scope .container {
+	margin-top: -1780px;
+}
 
 .main-activity__pic-scoupe {
 	position: relative;
@@ -238,4 +249,24 @@ header {
 	font-weight: 900;
 	color: #FFFFFF;
 }
+
+
+.main-activity__rules div img {
+	width: 2vw;
+
+}
+
+
+
+.white-space__with-crystal {
+	width: 4vw;
+	height: 24vw;
+	padding-top: 600px;
+}
+
+.white-space__with-crystal img {
+	width: 4vw;
+
+}
+
 
