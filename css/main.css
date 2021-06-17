@@ -215,7 +215,6 @@ header {
 	justify-content: space-between;
 	margin: 3% auto;
 	min-width: 96%;
-	height: 50vh;
 	padding-top: 40px;
 	border: 2px solid navy;
 	background-color: rgba(76, 122, 168, .4);
@@ -226,15 +225,19 @@ header {
 }
 .main-activity__pic-area {
 	justify-self: center;
-	flex-basis: 22%;
+	flex-basis: 42%;
 	min-width: 20%;
 	margin: 1%;
 	padding: 2%;
 	border: 2px solid mintcream;
-	background-color: steelblue;
+	background-color: mintcream;
 }
 .main-activity__pic-tab {
 	width: auto;
+}
+.main-activity__pic-tab img {
+	width: 24%;
+	margin-left: 70%;
 }
 .main-activity__pic-star {
 	display: flex;
@@ -242,18 +245,27 @@ header {
 	justify-content: center;
 	width: 4vw;
 	height: 4vw;
-  margin-top: -20%;
+  margin: -10% 10%;
 }
 .main-activity__pic-star p {
-	font-size: 1.6rem;
+	font-size: 96px;
 	font-weight: 900;
-	color: #FFFFFF;
+  color: #3C3B4A;
 }
 
 
-.main-activity__rules div img {
-	width: 2vw;
+.main-activity__rules {
+	background-color: #EBCFCC;
+}
 
+.main-activity__rules-title {
+	text-align: center;
+}
+.main-activity__rules-title img {
+	width: 40%;
+}
+.main-activity__rules-text img {
+	width: 2vw;
 }
 
 
