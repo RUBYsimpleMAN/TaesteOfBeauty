@@ -111,7 +111,9 @@ header {
 	max-width: 30vw;
 }
 .stamp-column__title img {
-	margin: 20% auto 10%;
+	display: block;
+	margin: 0 auto;
+	padding: 20% 0 10%;
 }
 .stamp-column__kabinet img {
 	max-width: 100%;
@@ -142,7 +144,7 @@ header {
 	flex-direction: column-reverse;
 }
 .our-excellence__title {
-	padding: 8vmin 0 4vmin;
+	padding: 8vmin 0 6vmin;
 	text-align: center;
 }
 .our-excellence__photo-text,
@@ -194,4 +196,46 @@ header {
 }
 
 
+
+.main-activity__pic-scoupe {
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 3% auto;
+	min-width: 96%;
+	height: 50vh;
+	padding-top: 40px;
+	border: 2px solid navy;
+	background-color: rgba(76, 122, 168, .4);
+	z-index: 5;
+}
+.main-activity__pic-scoupe__title {
+	text-align: center;
+}
+.main-activity__pic-area {
+	justify-self: center;
+	flex-basis: 22%;
+	min-width: 20%;
+	margin: 1%;
+	padding: 2%;
+	border: 2px solid mintcream;
+	background-color: steelblue;
+}
+.main-activity__pic-tab {
+	width: auto;
+}
+.main-activity__pic-star {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 4vw;
+	height: 4vw;
+  margin-top: -20%;
+}
+.main-activity__pic-star p {
+	font-size: 1.6rem;
+	font-weight: 900;
+	color: #FFFFFF;
+}
 
