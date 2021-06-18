@@ -178,14 +178,14 @@ header {
 }
 .main-activity__scoupe__bkgrnd img {
 	position: relative;
-	width: 110%;
+	width: 120%;
 	z-index: -1;
 }
 .main-activity__pic-scoupe__title img {
   width: 10vw;
 }
 .main-activity__scope .container {
-	margin-top: -1970px;
+	margin-top: -2100px;
 }
 .main-activity__pic-scoupe {
 	position: relative;
@@ -248,14 +248,19 @@ header {
 	text-align: center;
 }
 .main-activity__rules-title img {
-	width: 40%;
+	width: 50%;
+	z-index: auto;
 }
 .main-activity__rules-text img {
 	width: 2vw;
+	z-index: auto;
+}
+.main-activity__rules-text div {
+  padding: 2% 0;
 }
 .white-space__with-crystal {
 	width: auto;
-	height: 10vh;
+	margin-top: 17px;
 	padding: 60px;
 }
 .white-space__with-crystal img {
