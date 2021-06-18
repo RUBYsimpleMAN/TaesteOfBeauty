@@ -185,7 +185,8 @@ header {
   width: 10vw;
 }
 .main-activity__scope .container {
-	margin-top: -2100px;
+	/* margin-top: -2100px; */
+	margin-top: -167%;
 }
 .main-activity__pic-scoupe {
 	position: relative;
