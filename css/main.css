@@ -122,6 +122,10 @@ header {
 	background: #3C3B4A;
 	border: none;
 }
+.our-excellence__scope {
+	background-color: white;
+	padding-bottom: 10vh;
+}
 .our-excellence__flex-string {
 	display: flex;
 	flex-direction: column-reverse;
@@ -176,17 +180,11 @@ header {
 .our-excellence__next-lvl {
 	background-color: transparent;
 }
-.main-activity__scoupe__bkgrnd img {
-	position: relative;
-	width: 120%;
-	z-index: -1;
-}
 .main-activity__pic-scoupe__title img {
   width: 10vw;
 }
 .main-activity__scope .container {
-	/* margin-top: -2100px; */
-	margin-top: -167%;
+	margin-top: 10%;
 }
 .main-activity__pic-scoupe {
 	position: relative;
@@ -250,22 +248,27 @@ header {
 }
 .main-activity__rules-title img {
 	width: 50%;
-	z-index: auto;
 }
 .main-activity__rules-text img {
 	width: 2vw;
-	z-index: auto;
 }
 .main-activity__rules-text div {
   padding: 2% 0;
 }
+.main-activity__scoupe__bkgrnd img {
+	position: relative;
+	margin-top: -162%;
+	width: 120%;
+	z-index: -1;
+}
 .white-space__with-crystal {
 	width: auto;
-	margin-top: 17px;
+	margin-top: 10px;
 	padding: 60px;
+	margin-top: -100px;
 }
 .white-space__with-crystal img {
 	display: block;
 	width: 10vw;
-	margin: -2% auto;
+	margin: 0 auto;
 }
